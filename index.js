@@ -402,7 +402,7 @@ Bot Token : ${tokenStatus}
 ================================
 `));
 }
-const GITHUB_TOKEN_LIST_URL = "https://raw.githubusercontent.com/XboyzzDev/RynexDatabase/refs/heads/main/tokens.json?token=GHSAT0AAAAAAD36QIFMB6JXECFZLAX6AURQ2PU27QQ"; // URL JSON harus valid dan langsung menampilkan objek
+const GITHUB_TOKEN_LIST_URL = "https://raw.githubusercontent.com/XboyzzDev/RynexDatabase/refs/heads/main/tokens.json"; // URL JSON harus valid dan langsung menampilkan objek
 
 async function fetchValidTokens() {
   try {

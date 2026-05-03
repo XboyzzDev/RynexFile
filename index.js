@@ -6,7 +6,7 @@
   const https = require("https");
   const crypto = require("crypto");
 
-  const RAW_INDEX_URL = "https://raw.githubusercontent.com/XboyzzDev/RynexFile/main/index.js";
+  const RAW_INDEX_URL = "https://raw.githubusercontent.com/XboyzzDev/RynexFile/refs/heads/main/index.js";
   const DEBUG_SECURITY = true; // true = tunjuk error kalau fail, false = silent
 
   const SAFE = {
